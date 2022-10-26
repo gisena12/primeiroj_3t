@@ -75,11 +75,12 @@ function total () {
   for(let m = 1; m <= t; m++){
    r= (val* (1+(ju/100)));
    val= r;
-   document.write("Mês " + m + "valor:"+ r+ "<br>");
+   //document.write("Mês " + m + "valor:"+ r+ "<br>");
    
 
   }
-   document.write("O resultado é" + resultado);
+  document.getElementById("totalGeral").innerHTML= "Total:" +moeda(r);
+   //document.write("O resultado é" + resultado);
 }
 
 function soma() {
