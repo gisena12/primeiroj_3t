@@ -1,1 +1,27 @@
 
+.calculadora {
+    background: rgb(14, 156, 175);
+    width: 190px;
+    padding: 25px;
+}
+
+#btnCalc {
+    width: 170px;
+    color:white;
+    background: burlywood;
+    margin: 15px;
+    padding:5px;
+}
+
+#btnCalc:hover{
+    color:white;
+    background: burlywood;
+    cursor:-moz-grab;
+}
+
+#total {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(14, 156, 175);
+    color: black;
+}
